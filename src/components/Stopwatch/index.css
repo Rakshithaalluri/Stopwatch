@@ -1,0 +1,177 @@
+/* Write CSS here */
+
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  background-size: cover;
+  height: 107vh;
+  width: 125vw;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  }
+}
+
+.stopwatch-container {
+  display: flex;
+  flex-direction: column;
+  margin: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .stopwatch-container {
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+  }
+}
+
+.heading {
+  color: #333333;
+  font-family: 'Roboto';
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 240px;
+  width: 250px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
+@media screen and (max-width: 768px) {
+  .timer-container {
+    height: 280px;
+    width: 95%;
+    max-width: 400px;
+  }
+}
+
+.timer-sub-container {
+  display: flex;
+  margin-bottom: 0px;
+}
+
+.timer-image {
+  height: 30px;
+  width: 30px;
+  margin-right: 5px;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .timer-image {
+    height: 35px;
+    width: 35px;
+    margin-top: 52px;
+    margin-right: 10px;
+  }
+}
+
+.timer-heading {
+  color: #333333;
+  font-family: 'Roboto';
+  font-size: 18px;
+  margin-left: 0px;
+  font-weight: 500;
+  margin-top: 45px;
+}
+
+@media screen and (max-width: 768px) {
+  .timer-heading {
+    font-size: 32px;
+    margin-top: 50px;
+  }
+}
+
+.timing-count {
+  color: #333333;
+  font-family: 'Roboto';
+  font-size: 45px;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .timing-count {
+    font-size: 48px;
+  }
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin-top: 20px;
+}
+
+.start-button {
+  background-color: #1db05f;
+  height: 27px;
+  width: 52px;
+  border: none;
+  border-radius: 3px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: 500;
+  margin: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .start-button {
+    height: 28px;
+    width: 75px;
+    font-size: 15px;
+  }
+}
+
+.stop-button {
+  background-color: #ef0d36;
+  height: 27px;
+  width: 52px;
+  border: none;
+  border-radius: 2px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: 500;
+  margin: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .stop-button {
+    height: 28px;
+    width: 75px;
+    font-size: 15px;
+  }
+}
+
+.reset-button {
+  background-color: #eaa800;
+  height: 27px;
+  width: 52px;
+  border: none;
+  border-radius: 2px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: 500;
+  margin: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .reset-button {
+    height: 28px;
+    width: 75px;
+    font-size: 15px;
+  }
+}
